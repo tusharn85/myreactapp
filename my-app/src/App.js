@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import cardImage from "./logo192.png";
 import React from "react";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
@@ -10,40 +11,10 @@ import CardActions from "@material-ui/core/CardActions";
 function App() {
   return (
     <div style={{}}>
-      <h4>How to use CardComponent in ReactJS?</h4>
-      <Card
-        style={{
-          width: 400,
-          backgroundColor: "yellow",
-        }}
-      >
-        <CardContent>
-          <Typography
-            style={{ fontSize: 14 }}
-            color="textSecondary"
-            gutterBottom
-          >
-            Greetings of the day
-          </Typography>
-          <Typography variant="h5" component="h2">
-            How are you ?
-          </Typography>
-          <Typography
-            style={{
-              marginBottom: 12,
-            }}
-            color="textSecondary"
-          >
-            Keep Motivated
-          </Typography>
-          <Typography variant="body2" component="p">
-            Stay Happy
-          </Typography>
-        </CardContent>
-        <CardActions>
-          <Button size="small">Stay Safe.....</Button>
-        </CardActions>
-      </Card>
+      <section className='card'>
+        <img className='card-image' src={cardImage}></img>
+        <h5 className='card-title'>React</h5>
+      </section>
     </div>
   );
 }
