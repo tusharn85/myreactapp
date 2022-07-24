@@ -39,6 +39,7 @@
 
 body {
   padding: 25px;
+  background-color: dimgrey;
 }
 
 .card {
@@ -46,6 +47,7 @@ body {
   border: 1px solid;
   border-radius: 5px;
   margin: 10px;
+  background-color: white;
 }
 
 .card-image {
@@ -55,4 +57,9 @@ body {
 
 .card-title {
   padding: 5px;
+}
+
+.button {
+  align-items: center;
+  margin: 10px;
 }
