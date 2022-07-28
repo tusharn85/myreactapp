@@ -39,7 +39,7 @@
 
 body {
   padding: 25px;
-  background-color: white;
+  background-image: linear-gradient(rgb(17, 63, 131), skyblue);
 }
 
 .card {

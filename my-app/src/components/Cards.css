@@ -4,7 +4,6 @@
 }
 
 .container{
-    background-color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -20,21 +19,26 @@ img {
 .card {
     background-color: white;
     border: 5px;
+    border-color: black;
     border-radius: 20px 20px 5px 5px;
     margin: 10px;
     width: 300px;
-    height: fit-content;
+    height: 500px;
     position: relative;
 }
 
 .card:hover {
-    box-shadow: 8px grey;
+    box-shadow: 3px 3px 20px 3px grey;
+    transform: scale(1, 1);
+    background-color: beige;
 }
 
 .source {
-    position: static;
+    position: absolute;
     background-color: tan;
-    padding: 5px;
+    top: -1px;
+    right: -1px;
+    padding: 0px 5px;
     font-size: 15px;
     font-weight: 400;
     text-align: center;
@@ -46,19 +50,25 @@ img {
     font-size: 15px;
     margin-bottom: 10px;
     color: black;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .desc {
     font-size: 13px;
     margin-bottom: 10px;
     color: dimgrey;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .author {
     font-size: 11px;
-    color: lightgray;
+    color: dimgrey;
     font-style: italic;
     margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 button {
@@ -68,9 +78,13 @@ button {
     font-size: 11px;
     border-radius: 5px;
     padding: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
 }
 
 button:hover {
     background-color: lightgray;
-    font-weight: 600;
+    
+    text-decoration: underline;
+    cursor: pointer;
 }
