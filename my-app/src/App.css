@@ -63,3 +63,43 @@ body {
   align-items: center;
   margin: 10px;
 }
+
+nav {
+  color: black;
+  width: 100%;
+  background-color: black;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+header {  
+  background-color: black;
+  position: fixed;
+  left: 0;  
+  right: 0;  
+  top: 5px;
+  bottom: 5px;
+  height: 50px;
+  display: flex;  
+  align-items: center;
+  box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+  display: inline;
+}
+
+header li {
+  margin: 50px;
+}
+
+header li:hover {
+  text-decoration: underline;
+}
+
+header li a {
+  color: white;  
+  font-size: large;
+  text-decoration: none;
+}
