@@ -103,3 +103,7 @@ header li a {
   font-size: large;
   text-decoration: none;
 }
+
+.align-right {
+  text-align: right;
+}
