@@ -42,28 +42,6 @@ body {
   background-image: linear-gradient(rgb(17, 63, 131), skyblue);
 }
 
-.card {
-  width: 200px;
-  border: 1px solid;
-  border-radius: 5px;
-  margin: 10px;
-  background-color: white;
-}
-
-.card-image {
-  width: 100%;
-  background-color: white;
-}
-
-.card-title {
-  padding: 5px;
-}
-
-.button {
-  align-items: center;
-  margin: 10px;
-}
-
 nav {
   color: black;
   width: 100%;
@@ -73,13 +51,13 @@ nav {
   align-items: center;
 }
 
-header {  
+.header {  
   background-color: black;
   position: fixed;
   left: 0;  
   right: 0;  
-  top: 5px;
-  bottom: 5px;
+  top: 0;
+  z-index: 1;
   height: 50px;
   display: flex;  
   align-items: center;
